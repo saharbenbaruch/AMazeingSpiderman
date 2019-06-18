@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <children>
+      <Pane layoutX="-4.0" prefHeight="400.0" prefWidth="607.0" style="-fx-background-color: black;" >
+         <children>
+            <ImageView fitHeight="325.0" fitWidth="535.0" layoutX="36.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/about.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#ca1212" fontSmoothingType="LCD" layoutX="126.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winner!!!" textAlignment="CENTER" wrappingWidth="354.13665771484375">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

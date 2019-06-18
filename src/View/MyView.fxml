@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import View.MazeDisplayer?>
+<?import View.PlayerDisplayer?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="bigPane" prefWidth="783.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <children>
+       <ImageView fx:id="cover" fitHeight="783.0" fitWidth="787.0" layoutX="12.0" layoutY="0.0" pickOnBounds="false" preserveRatio="false">
+           <image>
+               <Image url="/images/spiderman.jpg" />
+           </image>
+       </ImageView>
+      <BorderPane fx:id="boarderPane" onKeyPressed="#KeyPressed" prefHeight="359.0" prefWidth="789.0" stylesheets="@/View.css">
+          <left>
+              <VBox fx:id="vBox" prefHeight="200.0" prefWidth="178.0" spacing="5.0" BorderPane.alignment="CENTER">
+                  <children>
+                      <GridPane prefHeight="354.0" prefWidth="169.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="106.0" minWidth="10.0" prefWidth="86.4" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="82.4" minWidth="10.0" prefWidth="82.4" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints maxHeight="31.600016021728514" minHeight="10.0" prefHeight="26.000011825561522" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="46.799988174438475" minHeight="10.0" prefHeight="29.60002822875976" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="56.19998397827149" minHeight="10.0" prefHeight="35.19999389648437" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="56.00000610351563" minHeight="10.0" prefHeight="33.59998779296876" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="56.600012207031256" minHeight="10.0" prefHeight="29.599987792968733" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="62.199987792968756" minHeight="10.0" prefHeight="27.999990844726568" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="66.80000915527344" minHeight="10.0" prefHeight="31.199969482421864" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="71.60001220703123" minHeight="10.0" prefHeight="68.4000305175781" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                          <Label text="Maze rows:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                          <Label text="Maze columns:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                          <TextField fx:id="txtfld_rowsNum" disable="false" text="10" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                          <TextField fx:id="txtfld_columnsNum" disable="false" text="10" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                          <Button fx:id="btn_generateMaze" onAction="#generateMaze" prefHeight="25.0" prefWidth="167.0" text="Generate Maze" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="2" onMouseClicked="#onMouseClick" />
+                          <Button fx:id="btn_solveMaze" cancelButton="true" onAction="#solveMaze" onMouseClicked="#onMouseClick" prefHeight="25.0" prefWidth="167.0" text="Solve Maze" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+                          <Label text="Char row:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                          <Label text="Char column:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                          <Label fx:id="lbl_rowsNum" text="${controller.characterPositionRow}" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                          <Label fx:id="lbl_columnsNum" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                     <Button fx:id="btn_mute" mnemonicParsing="false" onAction="#stopMusic" text="Mute" GridPane.rowIndex="6" onMouseClicked="#onMouseClick"  />
+                     <RadioButton fx:id="spiderman_radioBut" mnemonicParsing="false" text="Spiderman" GridPane.rowIndex="8" onAction="#changeCharacterToSpider" selected="true" onMouseClicked="#onMouseClick" />
+                     <RadioButton fx:id="venom_radiobut" mnemonicParsing="false" text="Venom" GridPane.columnIndex="1" GridPane.rowIndex="8" onAction="#changeCharacterToVenom" onMouseClicked="#onMouseClick" />
+                     <ImageView fx:id="spiderman_pic" fitHeight="63.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" translateX="15.0" GridPane.rowIndex="7">
+                        <image>
+                           <Image url="/images/character2.jpg" />
+                        </image>
+                     </ImageView>
+                     <ImageView fx:id="venom_pic" fitHeight="61.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" translateX="15.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                        <image>
+                           <Image url="/images/venom.png" />
+                        </image>
+                     </ImageView>
+
+                          <!--<Label GridPane.columnIndex="1" GridPane.rowIndex="4" text="${controller.characterPositionRow}" />-->
+                          <!--<Label GridPane.columnIndex="1" GridPane.rowIndex="5" text="${controller.characterPositionColumn}"/>-->
+      <!--                    <ChoiceBox value="2 minutes" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                              <items>
+                                  <FXCollections fx:factory="observableArrayList">
+                                      <String fx:value="2 minutes" />
+                                      <String fx:value="5 minutes" />
+                                      <String fx:value="15 minutes" />
+                                  </FXCollections>
+                              </items>
+                          </ChoiceBox>-->
+                      </GridPane>
+                  </children>
+                  <padding>
+                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  </padding>
+              </VBox>
+          </left>
+          <top>
+              <VBox BorderPane.alignment="CENTER">
+                  <children>
+                      <MenuBar prefHeight="26.0" prefWidth="765.0">
+                          <menus>
+                              <Menu mnemonicParsing="false" text="File">
+                                  <items>
+                                      <MenuItem mnemonicParsing="false" onAction="#generateMaze" text="New" />
+                                      <MenuItem mnemonicParsing="false" onAction="#saveMaze" text="Save" />
+                                      <MenuItem mnemonicParsing="false" onAction="#loadMaze" text="Load" />
+                                      <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
+                                  </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Options">
+                                  <items>
+                                      <MenuItem mnemonicParsing="false" onAction="#Properties" text="Properities" />
+                                  </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Help">
+                                  <items>
+                                      <MenuItem mnemonicParsing="false" onAction="#Info" text="Info" />
+                                      <MenuItem mnemonicParsing="false" onAction="#Instructions" text="Instructions" />
+                                  </items>
+                              </Menu>
+                          </menus>
+                      </MenuBar>
+                  </children>
+              </VBox>
+          </top>
+          <center>
+              <Pane fx:id="pane" prefHeight="333.0" prefWidth="646.0" BorderPane.alignment="CENTER">
+                  <padding>
+                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  </padding>
+               <children>
+                   <MazeDisplayer fx:id="mazeDisplayer" height="600.0" imageFileNameCriminal="resources/images/criminal.jpg" imageFileNameWall="resources/Images/wall3.jpg" width="600.0" />
+                   <PlayerDisplayer fx:id="playerDisplayer" height="600.0" imageFileNameCharacter="resources/images/char3.jpg" onMouseDragged="#moveByDrag"
+ imageFileNameSpiderNet="resources/images/spidernet.jpg"
+ imageFileNameBlackSpot="resources/images/blackSpot.jpg" width="600.0" />
+               </children>
+              </Pane>
+          </center>
+         <right>
+   </right>
+      </BorderPane>
+   </children>
+</Pane>

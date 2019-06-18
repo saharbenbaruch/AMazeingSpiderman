@@ -1,0 +1,206 @@
+2019.06.15 12:38:07.408 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.15 12:38:07.414 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.15 12:38:07.417 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.15 12:38:07.417 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.15 12:38:07.417 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 12:38:07.417 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 12:38:08.418 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:08.418 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:09.421 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:09.421 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:10.424 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:10.424 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:11.426 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:11.426 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:12.429 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:12.430 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:13.432 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:13.435 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:14.201 INFO  Server.Server - Client excepted: Socket[addr=/169.254.180.107,port=57462,localport=5400]
+2019.06.15 12:38:14.436 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:15.204 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:15.437 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:16.204 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:16.441 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:17.205 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:17.441 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:18.206 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:18.442 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:19.207 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:19.240 INFO  Server.Server - Client excepted: Socket[addr=/169.254.180.107,port=57463,localport=5401]
+2019.06.15 12:38:20.207 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:20.245 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:21.209 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:21.246 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:22.211 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:22.248 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:23.213 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:23.249 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:24.215 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:24.252 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:25.217 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:25.253 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:26.218 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:26.255 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:27.218 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:27.257 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:28.224 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:28.262 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:29.228 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:29.262 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:30.229 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:30.263 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:31.231 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:31.265 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:32.261 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:32.267 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:33.293 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:33.305 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:34.295 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:34.307 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:35.296 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:35.308 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:36.321 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:36.322 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:37.323 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:37.328 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:38.328 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:38:38.333 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:34.123 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.15 12:39:34.129 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.15 12:39:34.132 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.15 12:39:34.132 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.15 12:39:34.132 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 12:39:34.132 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 12:39:35.133 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:35.133 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:36.136 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:36.138 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:36.426 INFO  Server.Server - Client excepted: Socket[addr=/169.254.180.107,port=57468,localport=5400]
+2019.06.15 12:39:37.139 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:37.428 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:38.143 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:38.430 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:39.145 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 12:39:39.397 INFO  Server.Server - Stopping server..
+2019.06.15 12:39:39.398 INFO  Server.Server - Stopping server..
+2019.06.15 13:14:26.640 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.15 13:14:26.647 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.15 13:14:26.649 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.15 13:14:26.649 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.15 13:14:26.650 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 13:14:26.650 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 13:14:27.651 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:27.651 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:28.652 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:28.652 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:29.654 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:29.655 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:29.819 INFO  Server.Server - Client excepted: Socket[addr=/169.254.180.107,port=57669,localport=5400]
+2019.06.15 13:14:30.659 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:30.820 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:31.660 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:31.823 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:32.662 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:32.826 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:33.665 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:33.826 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:34.667 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:34.828 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:35.671 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:35.828 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:36.671 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:36.714 INFO  Server.Server - Client excepted: Socket[addr=/169.254.180.107,port=57670,localport=5401]
+2019.06.15 13:14:36.837 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:37.716 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:37.839 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:38.718 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:38.842 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:39.721 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:39.842 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:40.722 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:40.843 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:41.731 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:41.844 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:42.733 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:42.844 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:43.734 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:43.851 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:44.736 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:44.854 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:45.738 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:45.856 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:46.743 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:46.859 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:47.746 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:47.861 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:48.748 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 13:14:48.863 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:33.437 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5401]!
+2019.06.15 20:53:33.443 INFO  Server.Server - Server starter at ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5400]!
+2019.06.15 20:53:33.445 INFO  Server.Server - Server's Strategy: ServerStrategySolveSearchProblem
+2019.06.15 20:53:33.445 INFO  Server.Server - Server's Strategy: ServerStrategyGenerateMaze
+2019.06.15 20:53:33.446 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 20:53:33.446 INFO  Server.Server - Server is waiting for clients...
+2019.06.15 20:53:34.447 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:34.447 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:35.447 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:35.447 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:36.448 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:36.448 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:37.450 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:37.450 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:38.452 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:38.454 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:39.454 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:39.455 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:40.118 INFO  Server.Server - Client excepted: Socket[addr=/169.254.180.107,port=61769,localport=5400]
+2019.06.15 20:53:40.458 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:41.120 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:41.458 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:42.123 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:42.461 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:43.126 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:43.462 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:44.128 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:44.464 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:45.131 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:45.464 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:46.131 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:46.467 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:47.132 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:47.467 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:48.133 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:48.468 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:49.135 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:49.468 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:50.138 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:50.468 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:51.139 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:51.471 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:52.141 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:52.472 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:53.141 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:53.474 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:54.142 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:54.475 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:55.142 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:55.475 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:56.142 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:56.476 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:57.145 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:57.477 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:58.182 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:58.478 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:59.183 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:53:59.479 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:00.186 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:00.480 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:01.188 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:01.482 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:02.190 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:02.484 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:03.192 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:03.484 DEBUG Server.Server - Socket Timeout - No clients are waiting!
+2019.06.15 20:54:04.085 INFO  Server.Server - Stopping server..
+2019.06.15 20:54:04.086 INFO  Server.Server - Stopping server..
